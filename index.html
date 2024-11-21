@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark py-4">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-cloud-sun-rain fs-1 text-primary"></i> Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active text-primary border border-primary border-4 rounded-5 px-4" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white px-4" href="#">News</a>
+              <a class="nav-link text-white px-4" href="#">Live cameras</a>
+              <a class="nav-link text-white px-4" href="#">Photos</a>
+              <a class="nav-link text-white px-4" href="#">Contacts</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="content">
+         <div class="container w-75">
+          <div class="row justify-content-centre">
+            <div class="p-2 rounded-5 bg-dark my-5">
+            <input class="input ms-3 bg-dark border-0" type="text" placeholder="Find your location..." aria-label="Search">
+            <button class="bg-primary text-white py-2 border border-primary rounded-5">Find</button>
+            </div>
+          </div>
+         </div>
+         <div class="container-fluid">
+         <div class="card-group mx-5">
+          <div class="card bg-dark" id="fcard">
+            <div class="card-body">
+              <div class="header-custom-light card-header d-flex justify-content-between">
+                <div class="day text-white">Thursday</div>
+                <div class="date text-white">7November</div>
+              </div>
+              <div class="cardbody">
+                <h5 class="text-white">Cairo</h5>
+                <div class="deg-cont">
+                  <h1 class="text-white">27.2C</h1>
+                </div>
+                <p class="weatherCondition text-primary">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark" id="seccard">
+            <div class="card-body">
+              <div class="header-custom-light card-header d-flex justify-content-between">
+                <div class="day text-white">Friday</div>
+                <div class="date text-white"></div>
+              </div>
+              <div class="cardbody">
+                <div class="deg-cont">
+                  <img src="" alt="">
+                  <h1 class="text-white">27.2C</h1>
+                  <h6 class="text-white">27.2C</h6>
+                </div>
+                <p class="weatherCondition text-primary">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark" id="thcard">
+            <div class="card-body">
+              <div class="header-custom-light card-header d-flex justify-content-between">
+                <div class="day text-white">Saturday</div>
+                <div class="date text-white"></div>
+              </div>
+              <div class="cardbody">
+                <div class="deg-cont">
+                  <img src="" alt="">
+                  <h1 class="text-white">27.2C</h1>
+                  <h6 class="text-white">27.2C</h6>
+                </div>
+                <p class="weatherCondition text-primary">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+        <div class="col-6">
+        <div class="p-2 rounded-5 bg-dark my-5">
+          <input class="input ms-3 bg-dark border-0" type="text" placeholder="Enter your email..." aria-label="Search">
+          <button class="bg-primary text-white py-2 border border-primary rounded-5">Subscribe</button>
+        </div>
+        </div>
+        <div class="social col-6 py-5 px-5">
+          <a href="" class="mx-2"><i class="fa-brands fa-facebook-f text-primary fs-4 border border-0 rounded-5"></i></a>
+          <a href="" class="mx-2"><i class="fa-brands fa-twitter fs-4 border border-0 rounded-5"></i></a>
+          <a href="" class="mx-2"><i class="fa-brands fa-google fs-4 border border-0 rounded-5"></i></a>
+          <a href="" class="mx-2"><i class="fa-brands fa-pinterest fs-4 border border-0 rounded-5"></i></a>
+          </div>
+          <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
